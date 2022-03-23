@@ -1,8 +1,8 @@
-## QB Job Garage Menu with category
+## QB Job Garage Menu with category 👊😁👍
 - All vehicles can be put by category.
 - You can also rank vehicles so that only these players can use those vehicles.
-- Garage blips are job dependent.
-
+- Garages and blips are job dependent.
+- With this you have a shorter vehicle list.
 
 ## 📸 Screenshot 👊😁👍
 ![foto1](https://www.madirc.nl/fivem/garagemenu2.png)
