@@ -1,6 +1,8 @@
 ## QB Job Garage Menu with category
-- All vehicles can be put by category
+- All vehicles can be put by category.
 - You can also rank vehicles so that only these players can use those vehicles.
+- Garage blips are job dependent.
+
 
 ## 📸 Screenshot 👊😁👍
 ![foto1](https://www.madirc.nl/fivem/garagemenu2.png)
@@ -21,6 +23,10 @@
     ['rank']     = {0,1,2,3,4}, -- allowed ranks (see resources/[qb]/qb-core/shared/jobs.lua) (grades)
 },
 ```
+
+## Install
+- place the folder ` qb-garagemenu` in `resources/[qb]`
+- restart your server
 
 ## 🐞 Any bugs issues or suggestions, let my know.
 
