@@ -1,4 +1,4 @@
-## QB Garage Menu 
+## QB Job Garage Menu with category
 - All vehicles can be put by category
 - You can also rank vehicles so that only these players can use those vehicles.
 
