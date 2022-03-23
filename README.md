@@ -3,8 +3,8 @@
 - You can also rank vehicles so that only these players can use those vehicles.
 
 ## 📸 Screenshot 👊😁👍
-![foto1](https://www.madirc.nl/fivem/garagemenu1.png)
-![foto2](https://www.madirc.nl/fivem/garagemenu2.png)
+![foto1](https://www.madirc.nl/fivem/garagemenu2.png)
+![foto2](https://www.madirc.nl/fivem/garagemenu1.png)
 
 ## Available jobs
 - Police
