@@ -8,6 +8,9 @@
 ![foto1](https://www.madirc.nl/fivem/garagemenu2.png)
 ![foto2](https://www.madirc.nl/fivem/garagemenu1.png)
 
+## 💪 Dependencies
+- ✅ [qb-core](https://github.com/qbcore-framework/qb-core)
+
 ## Available jobs
 - Police
 - Ambulance
