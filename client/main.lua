@@ -45,10 +45,32 @@ local function GetIcone(job)
     return icon
 end
 
+local function SetCarItemsInfo()
+    local items = {}
+    for k, item in pairs(Config.CarItems) do
+	local itemInfo = QBCore.Shared.Items[item.name:lower()]
+	items[item.slot] = {
+	    name = itemInfo["name"],
+	    amount = tonumber(item.amount),
+	    info = item.info,
+	    label = itemInfo["label"],
+	    description = itemInfo["description"] and itemInfo["description"] or "",
+	    weight = itemInfo["weight"],
+	    type = itemInfo["type"],
+	    unique = itemInfo["unique"],
+	    useable = itemInfo["useable"],
+	    image = itemInfo["image"],
+	    slot = item.slot,
+        }
+    end
+    Config.CarItems = items
+end
+
 local function TakeOutVehicle(model, coords, plate)
     local coords = coords
     if coords then
         QBCore.Functions.SpawnVehicle(model, function(veh)
+	    SetCarItemsInfo()
             SetVehicleNumberPlateText(veh, plate..tostring(math.random(1000, 9999)))
             SetEntityHeading(veh, coords.w)
             exports[Config.FuelScript]:SetFuel(veh, 100.0)
