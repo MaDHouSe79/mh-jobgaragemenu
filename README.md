@@ -28,7 +28,7 @@
 ```
 
 ## Install
-- place the folder `qb-garagemenu` in `resources/[qb]`
+- place the folder `qb-jobgaragemenu` in `resources/[qb]`
 - restart your server
 
 ## 🐞 Any bugs issues or suggestions, let my know.
