@@ -116,7 +116,7 @@ RegisterNetEvent('QBCore:Player:SetPlayerData', function(data)
     PlayerData = data
 end)
 
-RegisterNetEvent('qb-garagemenu:client:vehCategories', function(coord)
+RegisterNetEvent('qb-jobgaragemenu:client:vehCategories', function(coord)
     local categoryMenu = {
         {
             header = Lang:t('menu.label', {icon = GetIcone(QBCore.Functions.GetPlayerData().job.name)}),
@@ -142,7 +142,7 @@ RegisterNetEvent('qb-garagemenu:client:vehCategories', function(coord)
             categoryMenu[#categoryMenu + 1] = {
                 header = label,
                 params = {
-                    event = 'qb-garagemenu:client:openVehCats',
+                    event = 'qb-jobgaragemenu:client:openVehCats',
                     args = {
                         catName = category,
                         coords  = coord,
@@ -155,13 +155,13 @@ RegisterNetEvent('qb-garagemenu:client:vehCategories', function(coord)
     categoryMenu[#categoryMenu + 1] = {
         header = Lang:t('menu.close'),
         params = {
-            event = 'qb-garagemenu:client:homeMenu'
+            event = 'qb-jobgaragemenu:client:homeMenu'
         }
     }
     exports['qb-menu']:openMenu(categoryMenu)
 end)
 
-RegisterNetEvent('qb-garagemenu:client:openVehCats', function(data)
+RegisterNetEvent('qb-jobgaragemenu:client:openVehCats', function(data)
     local vehicleMenu = {
         {
             header = Lang:t('menu.title', {icon = GetIcone(QBCore.Functions.GetPlayerData().job.name), jobname = data.jobname}),
@@ -170,7 +170,7 @@ RegisterNetEvent('qb-garagemenu:client:openVehCats', function(data)
         {
             header = Lang:t('menu.back'),
             params = {
-                event = 'qb-garagemenu:client:vehCategories'
+                event = 'qb-jobgaragemenu:client:vehCategories'
             }
         }
     }
@@ -183,7 +183,7 @@ RegisterNetEvent('qb-garagemenu:client:openVehCats', function(data)
                             header = v.name,
                             txt = data.catName,
                             params = {
-                                event = 'qb-garagemenu:server:takeOutVehicle',
+                                event = 'qb-jobgaragemenu:server:takeOutVehicle',
                                 args = {
                                     vehicle = v.model,
                                     coords = data.coords,
@@ -199,13 +199,13 @@ RegisterNetEvent('qb-garagemenu:client:openVehCats', function(data)
     vehicleMenu[#vehicleMenu + 1] = {
         header = Lang:t('menu.close'),
         params = {
-            event = 'qb-garagemenu:client:homeMenu'
+            event = 'qb-jobgaragemenu:client:homeMenu'
         }
     }
     exports['qb-menu']:openMenu(vehicleMenu)
 end)
 
-RegisterNetEvent('qb-garagemenu:server:takeOutVehicle', function(data)
+RegisterNetEvent('qb-jobgaragemenu:server:takeOutVehicle', function(data)
     TakeOutVehicle(data.vehicle, data.coords, data.plate)
 end)
 
@@ -233,7 +233,7 @@ CreateThread(function()
                                     Wait(1500)
                                     QBCore.Functions.DeleteVehicle(veh)
                                 else
-                                    TriggerEvent('qb-garagemenu:client:vehCategories', v.coords)
+                                    TriggerEvent('qb-jobgaragemenu:client:vehCategories', v.coords)
                                 end
                             end
                         end
