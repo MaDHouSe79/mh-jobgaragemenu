@@ -246,5 +246,7 @@ CreateThread(function()
 end)
 
 CreateThread(function()
-    DeleteBlips()
+    if LocalPlayer.state.isLoggedIn then
+        DeleteBlips()
+    end
 end)
