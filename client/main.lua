@@ -183,7 +183,7 @@ RegisterNetEvent('qb-jobgaragemenu:client:openVehCats', function(data)
                             header = v.name,
                             txt = data.catName,
                             params = {
-                                event = 'qb-jobgaragemenu:server:takeOutVehicle',
+                                event = 'qb-jobgaragemenu:client:takeOutVehicle',
                                 args = {
                                     vehicle = v.model,
                                     coords = data.coords,
@@ -205,7 +205,7 @@ RegisterNetEvent('qb-jobgaragemenu:client:openVehCats', function(data)
     exports['qb-menu']:openMenu(vehicleMenu)
 end)
 
-RegisterNetEvent('qb-jobgaragemenu:server:takeOutVehicle', function(data)
+RegisterNetEvent('qb-jobgaragemenu:client:takeOutVehicle', function(data)
     TakeOutVehicle(data.vehicle, data.coords, data.plate)
 end)
 
