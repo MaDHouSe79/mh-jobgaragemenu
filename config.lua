@@ -79,21 +79,21 @@ Config.Vehicles = {
         ['job']      = 'police',          -- Verhicle job
         ['rank']     = {0,1,2,3,4},       -- allowed ranks
     },
-	['police2'] = {
+    ['police2'] = {
         ['name']     = 'Police Vehicle 2',
         ['model']    = 'police2',
         ['category'] = 'compacts',
         ['job']      = 'police',
         ['rank']     = {0,1,2,3,4},
     },
-	['police3'] = {
+    ['police3'] = {
         ['name']     = 'Police Vehicle 3',
         ['model']    = 'police3',
         ['category'] = 'compacts',
         ['job']      = 'police',
         ['rank']     = {0,1,2,3,4},
     },
-	['police4'] = {
+    ['police4'] = {
         ['name']     = 'Police Vehicle 4',
         ['model']    = 'police4',
         ['category'] = 'sedans',
