@@ -317,20 +317,6 @@ Config.CarItems = {
             type = "item",
             slot = 3,
         },
-        [4] = {
-            name = "ifaks",
-            amount = 10,
-            info = {},
-            type = "item",
-            slot = 4,
-        },
-        [5] = {
-            name = "crutch",
-            amount = 5,
-            info = {},
-            type = "item",
-            slot = 5,
-        },
     },
     ['police'] = {
         [1] = {
@@ -353,20 +339,6 @@ Config.CarItems = {
             info = {},
             type = "item",
             slot = 3,
-        },
-        [4] = {
-            name = "policespikes",
-            amount = 5,
-            info = {},
-            type = "item",
-            slot = 4,
-        },
-        [5] = {
-            name = "portablebreathalyzer",
-            amount = 2,
-            info = {},
-            type = "item",
-            slot = 5,
         },
     }
 }
