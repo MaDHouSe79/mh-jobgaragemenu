@@ -93,134 +93,137 @@ Config.Garages = {
 
 
 Config.Vehicles = {
+    
     -- police
-    ['politie10'] = {                         -- must be a unique name
-        ['name']     = 'Mercedes B-Klasse',   -- Vehicle label name
-        ['model']    = 'politie10',           -- Vehicle spawn model name
-        ['category'] = 'compacts',         -- Vehicle category
-        ['job']      = 'police',              -- Verhicle job
-        ['rank']     = {0,1,2,3,4,5,6,7,8,9}, -- allowed ranks
+    ['politie10'] = {                       -- must be a unique name
+        ['name']     = 'Mercedes B-Klasse', -- Vehicle label name
+        ['model']    = 'politie10',         -- Vehicle spawn model name
+        ['category'] = 'compacts',          -- Vehicle category
+        ['job']      = 'police',            -- Verhicle job
+        ['rank']     = {0,1,2,3,4},         -- allowed ranks
     },
     ['poltouran2009'] = {
         ['name']     = 'Volkswagen Touran 2009',
         ['model']    = 'poltouran2009',
         ['category'] = 'compacts',
         ['job']      = 'police',
-        ['rank']     = {0,1,2,3,4,5,6,7,8,9},
+        ['rank']     = {0,1,2,3,4},
     },
     ['poltouran2016'] = {
         ['name']     = 'Volkswagen Touran 2016',
         ['model']    = 'poltouran2016',
         ['category'] = 'compacts',
         ['job']      = 'police',
-        ['rank']     = {0,1,2,3,4,5,6,7,8,9},
+        ['rank']     = {0,1,2,3,4},
     },
     ['poltransporter5'] = {
         ['name']     = 'Volkswagen T5',
         ['model']    = 'poltransporter5',
         ['category'] = 'vans',
         ['job']      = 'police',
-        ['rank']     = {0,1,2,3,4,5,6,7,8,9},
+        ['rank']     = {0,1,2,3,4},
     },
     ['poltransporter6'] = {
         ['name']     = 'Volkswagen T6 K-9',
         ['model']    = 'poltransporter6',
         ['category'] = 'vans',
         ['job']      = 'police',
-        ['rank']     = {0,1,2,3,4,5,6,7,8,9},
+        ['rank']     = {0,1,2,3,4},
     }, 
     ['poltoyota'] = {
         ['name']     = 'Toyota Landcruiser',
         ['model']    = 'poltoyota',
         ['category'] = 'suvs',
         ['job']      = 'police',
-        ['rank']     = {0,1,2,3,4,5,6,7,8,9},
+        ['rank']     = {0,1,2,3,4},
     }, 
     ['Politie14'] = {
         ['name']     = 'Volkswagen Passat',
         ['model']    = 'Politie14',
         ['category'] = 'sedans',
         ['job']      = 'police',
-        ['rank']     = {0,1,2,3,4,5,6,7,8,9},
+        ['rank']     = {0,1,2,3,4},
     },
     ['polaudi'] = {
         ['name']     = 'Audi A6',
         ['model']    = 'polaudi',
         ['category'] = 'sedans',
         ['job']      = 'police',
-        ['rank']     = {0,1,2,3,4,5,6,7,8,9},
+        ['rank']     = {0,1,2,3,4},
     },
     ['polaudipit'] = {
         ['name']     = 'Audi A6 PIT',
         ['model']    = 'polaudipit',
         ['category'] = 'sedans',
         ['job']      = 'police',
-        ['rank']     = {0,1,2,3,4,5,6,7,8,9},
+        ['rank']     = {0,1,2,3,4},
     },
     ['polvolvo70'] = {
         ['name']     = 'Volvo V70',
         ['model']    = 'polvolvo70',
         ['category'] = 'sedans',
         ['job']      = 'police',
-        ['rank']     = {0,1,2,3,4,5,6,7,8,9},
+        ['rank']     = {0,1,2,3,4},
     },
     ['polmotor2'] = {
         ['name']     = 'Motor BMW Offroad',
         ['model']    = 'polmotor2',
         ['category'] = 'motorcycles',
         ['job']      = 'police',
-        ['rank']     = {0,1,2,3,4,5,6,7,8,9},
+        ['rank']     = {0,1,2,3,4},
     },
     ['polmotor3'] = {
         ['name']     = 'Motor Yamaha',
         ['model']    = 'polmotor3',
         ['category'] = 'motorcycles',
         ['job']      = 'police',
-        ['rank']     = {0,1,2,3,4,5,6,7,8,9},
+        ['rank']     = {0,1,2,3,4},
     },
     ['astra'] = {
         ['name']     = 'Motor Yamaha',
         ['model']    = 'astra',
         ['category'] = 'coupes',
         ['job']      = 'police',
-        ['rank']     = {0,1,2,3,4,5,6,7,8,9},
+        ['rank']     = {0,1,2,3,4},
     },
     ['polaudiat'] = {
         ['name']     = 'Audi RS6',
         ['model']    = 'polaudiat',
         ['category'] = 'coupes',
         ['job']      = 'police',
-        ['rank']     = {0,1,2,3,4,5,6,7,8,9},
+        ['rank']     = {0,1,2,3,4},
     },
     ['polpolo'] = {
         ['name']     = 'Volkswagen Polo Unmarked',
         ['model']    = 'polpolo',
         ['category'] = 'coupes',
         ['job']      = 'police',
-        ['rank']     = {0,1,2,3,4,5,6,7,8,9},
+        ['rank']     = {0,1,2,3,4},
     },
     ['Polskoda'] = {
         ['name']     = 'Skoda RS Unmarked',
         ['model']    = 'Polskoda',
         ['category'] = 'coupes',
         ['job']      = 'police',
-        ['rank']     = {0,1,2,3,4,5,6,7,8,9},
+        ['rank']     = {0,1,2,3,4},
     },
     ['polmercedes'] = {
         ['name']     = 'Mercedes Benz Unmarked',
         ['model']    = 'polmercedes',
         ['category'] = 'coupes',
         ['job']      = 'police',
-        ['rank']     = {0,1,2,3,4,5,6,7,8,9},
+        ['rank']     = {0,1,2,3,4},
     },
     ['politie34'] = {
         ['name']     = 'Volkswagen Amarok',
         ['model']    = 'polmercedes',
         ['category'] = 'coupes',
         ['job']      = 'police',
-        ['rank']     = {0,1,2,3,4,5,6,7,8,9},
+        ['rank']     = {0,1,2,3,4},
     },
 
+    
+    
     --ambulance
     ['asprinter'] = {
         ['name']     = 'Mercedes Sprinter',
@@ -279,6 +282,7 @@ Config.Vehicles = {
         ['rank']     = {0,1,2,3,4},
     },
 
+    
     --mechanic
     ['flatbed'] = {
         ['name']     = 'Vehicle Ambulance',
@@ -318,6 +322,7 @@ Config.CarItems = {
             slot = 3,
         },
     },
+    
     ['police'] = {
         [1] = {
             name = "heavyarmor",
