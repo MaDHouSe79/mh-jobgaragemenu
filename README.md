@@ -1,4 +1,4 @@
-## QB Job Garage Menu with category 👊😁👍
+## MH Job Garage Menu with category 👊😁👍
 - All vehicles can be put by category.
 - You can also rank vehicles so that only these players can use those vehicles.
 - Garages and blips are job dependent.
@@ -28,7 +28,7 @@
 ```
 
 ## Install
-- place the folder `qb-jobgaragemenu` in `resources/[qb]`
+- place the folder `mh-jobgaragemenu` in `resources/[qb]`
 - restart your server
 
 ## 🐞 Any bugs issues or suggestions, let my know.
