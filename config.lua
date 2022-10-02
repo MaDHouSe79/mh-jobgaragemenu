@@ -4,6 +4,8 @@
 
 Config = {}
 
+Config.CheckForUpdates  = true
+
 Config.FuelScript = "LegacyFuel"
 
 Config.DebugPoly = false
